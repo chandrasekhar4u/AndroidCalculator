@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:paddingBottom="@dimen/activity_vertical_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" tools:context=".Home" android:background="#fff"
+    android:weightSum="1">
+
+    <EditText  android:id="@+id/result_id" android:layout_width="fill_parent" android:layout_height="60dp" android:windowSoftInputMode="stateHidden"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:focusable="false"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:paddingTop="1dp">
+
+        <Button android:id="@+id/Btnclear_id" android:layout_width="100dp" android:layout_height="80dp"
+            android:text="C" android:onClick="btnclearClicked" android:textAlignment="center" android:textColorHighlight="#fa3636"
+            android:textStyle="bold" android:textSize="45dp"  />
+
+        <Button android:id="@+id/BtnBack_id" android:layout_width="100dp" android:layout_height="80dp"
+            android:text="⌫" android:onClick="btnBackClicked" android:textAlignment="center" android:textColorHighlight="#fa3636"
+            android:textStyle="bold" android:textSize="45dp"  />
+
+        <Button android:id="@+id/Btnequal_id" android:layout_width="120dp" android:layout_height="80dp"
+            android:text="=" android:onClick="btnequalClicked"
+            android:textAlignment="center" android:textColorHighlight="#fa3636"
+            android:textStyle="bold" android:textSize="45dp" />
+
+ </LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:paddingTop="1dp">
+        <Button android:id="@+id/Btn7_id" android:layout_width="80dp" android:layout_height="80dp"
+            android:text="7" android:onClick="btn7Clicked" android:textAlignment="center" android:textColorHighlight="#fa3636"
+            android:textStyle="bold" android:textSize="45dp" />
+        <Button android:id="@+id/Btn8_id" android:layout_width="80dp" android:layout_height="80dp"
+            android:text="8" android:onClick="btn8Clicked" android:textAlignment="center" android:textColorHighlight="#fa3636"
+            android:textStyle="bold" android:textSize="45dp" />
+        <Button android:id="@+id/Btn9_id" android:layout_width="80dp" android:layout_height="80dp"
+            android:text="9" android:onClick="btn9Clicked" android:textAlignment="center" android:textColorHighlight="#fa3636"
+            android:textStyle="bold" android:textSize="45dp"  />
+        <Button android:id="@+id/Btnplus_id" android:layout_width="80dp" android:layout_height="80dp"
+            android:text="+"
+            android:onClick="btnplusClicked" android:textAlignment="center" android:textColorHighlight="#fa3636"
+            android:textStyle="bold" android:textSize="45dp"  />
+</LinearLayout>
+
+
+ <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:paddingTop="1dp">
+    <Button android:id="@+id/Btn4_id" android:layout_width="80dp" android:layout_height="80dp"
+        android:text="4" android:onClick="btn4Clicked"
+        android:textAlignment="center" android:textColorHighlight="#fa3636"
+        android:textStyle="bold" android:textSize="45dp"  />
+
+    <Button android:id="@+id/Btn5_id" android:layout_width="80dp" android:layout_height="80dp"
+        android:text="5"
+        android:onClick="btn5Clicked" android:textAlignment="center" android:textColorHighlight="#fa3636"
+        android:textStyle="bold" android:textSize="45dp"  />
+
+    <Button android:id="@+id/Btn6_id" android:layout_width="80dp" android:layout_height="80dp"
+        android:text="6"
+        android:onClick="btn6Clicked" android:textAlignment="center" android:textColorHighlight="#fa3636"
+        android:textStyle="bold" android:textSize="45dp" />
+     <Button android:id="@+id/Btnminus_id" android:layout_width="80dp" android:layout_height="80dp"
+            android:text="-"
+            android:onClick="btnminusClicked" android:textAlignment="center" android:textColorHighlight="#fa3636"
+            android:textStyle="bold" android:textSize="45dp" />
+</LinearLayout>
+
+ <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:paddingTop="1dp">
+    <Button android:id="@+id/Btn1_id" android:layout_width="80dp" android:layout_height="80dp"
+        android:text="1" android:onClick="btn1Clicked"
+        android:textAlignment="center" android:textColorHighlight="#fa3636"
+        android:textStyle="bold" android:textSize="45dp" />
+
+    <Button android:id="@+id/Btn2_id" android:layout_width="80dp" android:layout_height="80dp"
+    android:text="2"
+    android:onClick="btn2Clicked" android:textAlignment="center" android:textColorHighlight="#fa3636"
+        android:textStyle="bold" android:textSize="45dp" />
+
+    <Button android:id="@+id/Btn3_id" android:layout_width="80dp" android:layout_height="80dp"
+    android:text="3"
+    android:onClick="btn3Clicked"  android:textAlignment="center" android:textColorHighlight="#fa3636"
+        android:textStyle="bold" android:textSize="45dp" />
+    <Button android:id="@+id/BtnDot_id" android:layout_width="80dp" android:layout_height="80dp"
+            android:text="." android:onClick="btnDotClicked" android:textAlignment="center" android:textColorHighlight="#fa3636"
+            android:textStyle="bold" android:textSize="45dp" />
+
+</LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:paddingTop="1dp">
+
+        <Button android:id="@+id/Btn0_id" android:layout_width="120dp" android:layout_height="80dp"
+           android:text="0" android:onClick="btn0Clicked"
+            android:textAlignment="center" android:textColorHighlight="#fa3636"
+        android:textStyle="bold" android:textSize="45dp" />
+
+        <Button android:id="@+id/Btndivide_id" android:layout_width="100dp" android:layout_height="80dp"
+        android:text="/" android:onClick="btndivideClicked"  android:textAlignment="center" android:textColorHighlight="#fa3636"
+        android:textStyle="bold" android:textSize="45dp" />
+
+    <Button android:id="@+id/Btnmulti_id" android:layout_width="100dp" android:layout_height="80dp"
+        android:text="*" android:onClick="btnmultiClicked"  android:textAlignment="center" android:textColorHighlight="#fa3636"
+        android:textStyle="bold" android:textSize="45dp" />
+</LinearLayout>
+
+    <TextView android:layout_weight="1" android:id="@+id/textView" android:textStyle="bold"
+        android:textSize="20sp" android:textIsSelectable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+</LinearLayout>
